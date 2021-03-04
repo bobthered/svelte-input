@@ -46,6 +46,15 @@
     type="number"
     {name}
     {placeholder} />
+{:else if type === 'password'}
+  <input
+    bind:value
+    on:change
+    on:keyup
+    class={Object.values(classes).join(' ')}
+    type="password"
+    {name}
+    {placeholder} />
 {:else if type === 'text'}
   <input
     bind:value

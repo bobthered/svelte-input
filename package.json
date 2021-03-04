@@ -1,6 +1,6 @@
 {
   "name": "@bobthered/svelte-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Svelte component for inputs",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
